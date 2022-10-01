@@ -36,7 +36,7 @@ spring:
 
 Where `https://idp.example.com/introspect` is the introspection endpoint hosted by your authorization server and `client-id` and `client-secret` are the credentials needed to hit that endpoint.
 
-Resource Server will use these properties to further self-configure and subsequently validate incoming JWTs.
+Resource Server will use these properties to further self-configure and subsequently validate incoming opaque tokens.
 
 [NOTE]
 When using introspection, the authorization server's word is the law.
